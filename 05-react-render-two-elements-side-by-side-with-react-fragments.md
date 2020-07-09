@@ -25,7 +25,7 @@
     const element = React.createElement(
         React.Fragment,
         null,
-        helloElement
+        helloElement,
         worldElement
     )
     ReactDOM.render(element, document.getElementById('root'));
